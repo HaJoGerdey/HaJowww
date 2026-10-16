@@ -32,6 +32,7 @@
       color: var(--text);
       min-height: 100vh;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       padding: 2rem 1rem;
@@ -63,17 +64,6 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-    }
-
-    .photo-placeholder {
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(135deg, #d6eaf8, #aed6f1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3rem;
-      color: var(--accent-dark);
     }
 
     h1 {
@@ -139,6 +129,22 @@
       margin-top: 1rem;
     }
 
+    .legal-footer {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .legal-footer a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    .legal-footer a:hover {
+      text-decoration: underline;
+    }
+
     @media (max-width: 480px) {
       .card {
         padding: 2rem 1.25rem 1.5rem;
@@ -169,6 +175,11 @@
     </div>
 
     <p class="footer-note">Schöne Grüße von meiner digitalen Visitenkarte</p>
+
+    <div class="legal-footer">
+      <a href="/impressum.html">Impressum</a>
+      <a href="/datenschutz.html">Datenschutz</a>
+    </div>
   </div>
 </body>
 </html>

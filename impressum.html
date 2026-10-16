@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum | Dr. Hans-Jörg Gerdey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text: #0d2b4a;
+      --muted: #3d5a80;
+      --accent: #1a4a8a;
+      --card: #ffffff;
+      --shadow: 0 10px 40px rgba(13, 43, 74, 0.18);
+    }
+    body {
+      font-family: 'Nunito', system-ui, sans-serif;
+      background: linear-gradient(160deg, #c5d9f0 0%, #e8f0f8 50%, #b8cfe8 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+      line-height: 1.6;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      max-width: 540px;
+      width: 100%;
+      padding: 2.5rem 2rem;
+    }
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+    a { color: var(--accent); }
+    .back {
+      display: inline-block;
+      margin-top: 2rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .back:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Impressum</h1>
+
+    <p>
+      <strong>Dr. Hans-Jörg Gerdey</strong><br>
+      Friedrich-Wilhelm-Str. 61<br>
+      28199 Bremen
+    </p>
+
+    <p>
+      E-Mail: <a href="mailto:info@gerdey.de">info@gerdey.de</a>
+    </p>
+
+    <p>
+      Diese Website ist eine rein persönliche digitale Visitenkarte und dient keinen geschäftlichen Zwecken.
+    </p>
+
+    <p>
+      Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:<br>
+      Dr. Hans-Jörg Gerdey<br>
+      Friedrich-Wilhelm-Str. 61<br>
+      28199 Bremen
+    </p>
+
+    <a class="back" href="/">← Zurück zur Visitenkarte</a>
+  </div>
+</body>
+</html>
