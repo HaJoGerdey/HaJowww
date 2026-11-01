@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gerdey;Hans-Jörg;;;
+FN:Dr. Hans-Jörg Gerdey
+EMAIL;TYPE=INTERNET:info@gerdey.de
+ADR;TYPE=HOME:;;Friedrich-Wilhelm-Str. 61;Bremen;;28199;Deutschland
+NOTE:Persönliche Visitenkarte
+END:VCARD
